@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Track your calories effortlessly",
+  "text": "Log any meal in seconds using image or simple description using the power of AI.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Get Free Access"
     },
     {
-      "title": "Learn more",
+      "title": "Watch demo",
       "color": "#fff"
     }
   ]

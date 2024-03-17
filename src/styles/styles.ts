@@ -3,14 +3,26 @@ import { createGlobalStyle } from "styled-components";
 export const Styles = createGlobalStyle`
 
     @font-face {
-        font-family: "Motiva Sans Light";
-        src: url("/fonts/Motiva-Sans-Light.ttf") format("truetype");
+        font-family: "Cabin Regular";
+        src: url("/fonts/Cabin-Regular.ttf") format("truetype");
         font-style: normal;
     }
-
+    
     @font-face {
-        font-family: "Motiva Sans Bold";
-        src: url("/fonts/Motiva-Sans-Bold.ttf") format("truetype");
+        font-family: "Cabin Bold";
+        src: url("/fonts/Cabin-Bold.ttf") format("truetype");
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "PT Serif Regular";
+        src: url("/fonts/PTSerif-Regular.ttf") format("truetype");
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: "PT Serif Bold";
+        src: url("/fonts/PTSerif-Bold.ttf") format("truetype");
         font-style: normal;
     }
 
@@ -18,7 +30,7 @@ export const Styles = createGlobalStyle`
     body,
     html,
     a {
-        font-family: 'Motiva Sans Light', sans-serif;
+        font-family: 'Cabin Regular', sans-serif;
     }
 
 
@@ -32,7 +44,7 @@ export const Styles = createGlobalStyle`
     }
 
     a:hover {
-        color: #18216d;
+
     }
 
     input,
@@ -57,8 +69,8 @@ export const Styles = createGlobalStyle`
     h4,
     h5,
     h6 {
-        font-family: 'Motiva Sans Bold', serif;
-        color: #18216d;
+        font-family: 'PT Serif Bold', serif;
+        color: #666464;
         font-size: 56px;
         line-height: 1.18;
 
@@ -72,7 +84,7 @@ export const Styles = createGlobalStyle`
     }
 
     p {
-        color: #18216d;
+        color: #525050;
         font-size: 21px;        
         line-height: 1.41;
     }
